@@ -228,9 +228,8 @@ namespace NexAssets
             return false;
         }
 
-        private bool ApiCallsFrequencyCheck(int type) {
-            return false;
-        }
+        // TODO
+        private bool ApiCallsFrequencyCheck(int type) { return false; }
 
         // TODO
         protected static void NC_LOG(string str) { }

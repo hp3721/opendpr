@@ -15,11 +15,11 @@ public class HoneyWork
     public static int GetTblMonsCount() { return 0; }
 
     public static int GetRareLvCount() {
-        return 4;
+        return RareTreeCount;
     }
 
     public static int GetSwayLvCount() {
-        return 4;
+        return RareTreeCount;
     }
 
     // TODO

@@ -415,9 +415,8 @@ namespace Dpr.Battle.Logic
         // TODO
         public void WAZA_Copy(BTL_POKEPARAM bppDst) { }
 
-        public byte WAZA_GetUsedCount(byte wazaIdx) {
-            return m_usedWazaCount;
-        }
+        // TODO
+        public byte WAZA_GetUsedCount(byte wazaIdx) { return 0; }
 
         // TODO
         public void WAZA_SetUsedCount(byte wazaIdx, byte value) { }

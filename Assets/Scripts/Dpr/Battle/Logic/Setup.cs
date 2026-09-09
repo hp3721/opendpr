@@ -113,7 +113,7 @@ namespace Dpr.Battle.Logic
 		private static byte GetMaxFollowPokeLevel() { return default; }
 		
 		private static byte GetCaptureLevelCap() {
-		    return 0x64;
+		    return PmlConstants.MAX_POKE_LEVEL;
 		}
 		
 		// TODO

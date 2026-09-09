@@ -34,9 +34,8 @@
             return m_requestCount;
         }
 
-        public byte GetCount(BTL_CLIENT_ID clientID) {
-            return m_requestCount;
-        }
+        // TODO
+        public byte GetCount(BTL_CLIENT_ID clientID) { return 0; }
 
         // TODO
         public BtlPokePos GetRequestPos(byte index) { return BtlPokePos.POS_1ST_0; }

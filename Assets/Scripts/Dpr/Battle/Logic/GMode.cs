@@ -7,7 +7,7 @@ namespace Dpr.Battle.Logic
 		private const byte MAX_GMODE_TURN = 3;
 		
 		public static uint GetMaxTurn() {
-		    return 3;
+		    return MAX_GMODE_TURN;
 		}
 		
 		// TODO

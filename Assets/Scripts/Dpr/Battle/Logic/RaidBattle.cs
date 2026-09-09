@@ -6,7 +6,7 @@ namespace Dpr.Battle.Logic
 		public const byte TURNCOUNT_RELIVE = 2;
 		
 		public static byte GetReliveTurnCount(MainModule pMainModule) {
-		    return 2;
+		    return TURNCOUNT_RELIVE;
 		}
 		
 		public static bool IsLoseByPlayerDead(MainModule pMainModule) {

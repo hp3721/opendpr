@@ -2022,7 +2022,7 @@ namespace Dpr.Battle.Logic
         private int GetVariableArgs(byte idx) { return 0; }
 
         public byte GetClientID() {
-            return m_wazaInfoPokeIdx;
+            return m_myID;
         }
 
         // TODO

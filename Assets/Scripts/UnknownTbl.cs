@@ -1,30 +1,32 @@
+using DPData;
+
 public class UnknownTbl
 {
 	// TODO
 	public static int Tbl1(int index) { return default; }
 	
 	public static int Tbl2(int index) {
-	    return 5;
+	    return (int)UNKNOWN_NUM.UNK_F;
 	}
 	
 	public static int Tbl3(int index) {
-	    return 0x11;
+	    return (int)UNKNOWN_NUM.UNK_R;
 	}
 	
 	public static int Tbl4(int index) {
-	    return 8;
+	    return (int)UNKNOWN_NUM.UNK_I;
 	}
 	
 	public static int Tbl5(int index) {
-	    return 0xD;
+	    return (int)UNKNOWN_NUM.UNK_N;
 	}
 	
 	public static int Tbl6(int index) {
-	    return 4;
+	    return (int)UNKNOWN_NUM.UNK_E;
 	}
 	
 	public static int Tbl7(int index) {
-	    return 3;
+	    return (int)UNKNOWN_NUM.UNK_D;
 	}
 	
 	// TODO
